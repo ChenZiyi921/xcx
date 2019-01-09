@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"></button>
+    <button class="button" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">立即登录</button>
     <block wx:else>
     <view class="userinfo-nickname">头像</view>
     <view class="userinfo-avatar"><image bindtap="bindViewTap" src="{{userInfo.avatarUrl}}" mode="cover"></image></view>
