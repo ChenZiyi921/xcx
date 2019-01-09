@@ -20,14 +20,14 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "http://jzfq2016.oss-cn-beijing.aliyuncs.com/jzfq2016/20180321/20180321e7ef61148ef556bcf322f2c004747f90.jpg",
-        "selectedIconPath": "http://jzfq2016.oss-cn-beijing.aliyuncs.com/jzfq2016/20180321/20180321e7ef61148ef556bcf322f2c004747f90.jpg"
+        "iconPath": "img/i.png",
+        "selectedIconPath": "img/i.png"
       },
       {
         "pagePath": "pages/my/my",
         "text": "我的",
-        "iconPath": "http://jzfq2016.oss-cn-beijing.aliyuncs.com/jzfq2016/20180321/20180321e7ef61148ef556bcf322f2c004747f90.jpg",
-        "selectedIconPath": "http://jzfq2016.oss-cn-beijing.aliyuncs.com/jzfq2016/20180321/20180321e7ef61148ef556bcf322f2c004747f90.jpg"
+        "iconPath": "img/i.png",
+        "selectedIconPath": "img/i.png"
       }
     ]
   }
