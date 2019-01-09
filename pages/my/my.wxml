@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"></button>
+    <block wx:else>
+    <view class="userinfo-nickname">头像</view>
+    <view class="userinfo-avatar"><image bindtap="bindViewTap" src="{{userInfo.avatarUrl}}" mode="cover"></image></view>
+    </block>
+  </view>
+  <view class="userinfo-list">
+    <view class="userinfo-li">
+      <view>昵称</view>
+      <view>{{userInfo.nickName}}</view>
+    </view>
+    <view class="userinfo-li hr">
+      <view>性别</view>
+      <view>男</view>
+    </view>
+    <view class="userinfo-li hr" bindtap="toMyOrder">
+      <view>我的订单</view>
+      <view><view class="arrow"></view></view>
+    </view>
+  </view>
+  <view class="userinfo-list">
+    <view class="userinfo-li">
+      <view>联系客服</view>
+      <view><view class="arrow"></view></view>
+    </view>
+  </view>
+  <view class="userinfo-list">
+    <view class="userinfo-li">
+      <view>帮助中心</view>
+      <view><view class="arrow"></view></view>
+    </view>
+  </view>
+</view>
