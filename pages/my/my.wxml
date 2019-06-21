@@ -4,7 +4,7 @@
     <button class="button" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">立即登录</button>
     <block wx:else>
     <view class="userinfo-nickname">头像</view>
-    <view class="userinfo-avatar"><image bindtap="bindViewTap" src="{{userInfo.avatarUrl}}" mode="cover"></image></view>
+    <view class="userinfo-avatar"><image src="{{userInfo.avatarUrl}}" mode="cover"></image></view>
     </block>
   </view>
   <view class="userinfo-list">

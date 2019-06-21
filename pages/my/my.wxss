@@ -1,5 +1,4 @@
-/**index.wxss**/
-page{ background-color: #F0F0F2; }
+
 .container{ background: #F0F0F2; font-size: 30rpx; }
 .userinfo {
   display: flex;
@@ -31,12 +30,12 @@ page{ background-color: #F0F0F2; }
 }
 .userinfo-list{
   background: #fff;
-  margin-top: 30rpx;
+  margin-top: 20rpx;
   padding: 0 30rpx;
 }
 .userinfo-li{
   display: flex;
-  height: 80rpx;
+  height: 100rpx;
   align-items: center;
 }
 .userinfo-li view{

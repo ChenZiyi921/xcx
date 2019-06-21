@@ -13,7 +13,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.4.4",
 	"appid": "wxcb9e7ed32078690a",
-	"projectname": "xcx",
+	"projectname": "trunk",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
