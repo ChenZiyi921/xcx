@@ -1,21 +1,27 @@
+.container {
+  justify-content: space-between;
+  background: #F0F0F2;
+  font-size: 30rpx;
+}
 
-.container{ background: #F0F0F2; font-size: 30rpx; }
 .userinfo {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 150rpx; 
+  height: 150rpx;
   background: #fff;
   padding: 0 30rpx;
   box-sizing: border-box;
   overflow: hidden;
 }
-.userinfo-avatar { 
+
+.userinfo-avatar {
   flex: 5;
   display: flex;
   justify-content: flex-end;
 }
-.userinfo-avatar image{
+
+.userinfo-avatar image {
   width: 120rpx;
   height: 120rpx;
   border-radius: 50%;
@@ -28,27 +34,33 @@
   text-overflow: ellipsis;
   color: #101010;
 }
-.userinfo-list{
+
+.userinfo-list {
   background: #fff;
   margin-top: 20rpx;
   padding: 0 30rpx;
 }
-.userinfo-li{
+
+.userinfo-li {
   display: flex;
   height: 100rpx;
   align-items: center;
 }
-.userinfo-li view{
+
+.userinfo-li view {
   flex: 5;
 }
-.userinfo-li view:nth-of-type(2){
+
+.userinfo-li view:nth-of-type(2) {
   align-items: flex-end;
   text-align: right;
 }
-.hr{
+
+.hr {
   border-top: 2rpx solid #F0F0F2;
 }
-.arrow{
+
+.arrow {
   width: 20rpx;
   height: 20rpx;
   border-top: 2rpx solid #666;
@@ -56,7 +68,8 @@
   transform: rotate(45deg);
   float: right;
 }
-.button{
+
+.button {
   width: 100%;
   height: 100rpx;
   background: #fff;

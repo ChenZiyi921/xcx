@@ -1,4 +1,2 @@
-<!--index.wxml-->
-<view class="container">
-    order
-</view>
+<!--pages/order/order.wxml-->
+<text>pages/order/order.wxml</text>

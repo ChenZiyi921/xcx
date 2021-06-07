@@ -1,8 +1,11 @@
 /**app.wxss**/
 .container {
   height: 100%;
-  align-items: center;
-  justify-content: space-between;
+  /* align-items: center;
+  justify-content: space-between; */
   box-sizing: border-box;
-} 
-image{ display: block; }
+}
+
+image {
+  display: block;
+}
