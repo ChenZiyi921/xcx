@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/my/my",
-    "pages/order/order"
+    "pages/order/order",
+    "pages/sms/sms"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -22,6 +23,12 @@
         "text": "首页",
         "iconPath": "img/i-home.png",
         "selectedIconPath": "img/i-home-active.png"
+      },
+      {
+        "pagePath": "pages/sms/sms",
+        "text": "短信",
+        "iconPath": "img/i-user.png",
+        "selectedIconPath": "img/i-user-active.png"
       },
       {
         "pagePath": "pages/my/my",

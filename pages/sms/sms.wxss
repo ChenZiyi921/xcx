@@ -1,0 +1,12 @@
+/* pages/sms/sms.wxss */
+.box {
+  padding: 20rpx;
+}
+
+button {
+  margin-top: 20rpx;
+}
+
+.input {
+  border: 1px solid #eee;
+}
